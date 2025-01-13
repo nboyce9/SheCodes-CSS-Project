@@ -1,0 +1,54 @@
+body {
+  font-family: "Ubuntu", serif;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#input {
+  margin-right: 10px;
+  padding: 5px 25px;
+  border-radius: 7px;
+  border-color: #885df1;
+}
+#submit-btn {
+  color: whitesmoke;
+  border-radius: 7px;
+  background-color: #885df1;
+  border-color: #885df2;
+}
+#submit-btn:hover {
+  color: #885df1;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  border-color: #885df2;
+}
+.current-weather {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.degree {
+  justify-content: right;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-block: 0.67em;
+}
+main p {
+  color: gray;
+  font-size: medium;
+}
+strong {
+  color: rgb(238, 81, 81);
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-size: smaller;
+}
+a {
+  color: #885df1;
+}
